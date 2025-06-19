@@ -1,3 +1,23 @@
+import java.util.*;
+
+String read() {
+    try {
+        return new Scanner(System.in).nextLine();
+    } catch (Exception e) {
+        e.printStackTrace();
+        return "";
+    }
+}
+
+int readInt() {
+    try {
+        return new Scanner(System.in).nextInt();
+    } catch (Exception e) { 
+        e.printStackTrace();
+        return 0;
+    }
+}
+
 int[]CreateSieve(int x) {
 	int[] a;
 	a=new int[x];
@@ -45,3 +65,5 @@ for(int n=2;n<x;n=n+1) {
 printSieve(sieve);
 printf("\n\n\n\n Press enter to exit");
 read();
+System.exit(0);
+//jshell --execution local --startup PRINTING "C:\Users\Smarlik\Desktop\New Folder\projects\primeFinder\primeFinder.java"
