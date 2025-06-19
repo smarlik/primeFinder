@@ -5,7 +5,8 @@ This program uses Sieve of Eratosthens algoritam for finding prime numbers.
 
 To run this program you must put this into the terminal:
 
- jshell --execution local --startup PRINTING "C:\Users\Smarlik\Desktop\New Folder\projects\primeFinder\primeFinder.java"
+```
+jshell --execution local --startup PRINTING "primeFinder.java"
+```
 
-The fix for primeFinder was that first you had to make scanner work (--execution local) and then enable printf function (--startup PRINTING)
-
+The fix for primeFinder was that first you had to make scanner work (`--execution local`) and then enable printf function (`--startup PRINTING`)
