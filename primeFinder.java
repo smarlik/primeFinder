@@ -66,4 +66,3 @@ printSieve(sieve);
 printf("\n\n\n\n Press enter to exit");
 read();
 System.exit(0);
-//jshell --execution local --startup PRINTING "C:\Users\Smarlik\Desktop\New Folder\projects\primeFinder\primeFinder.java"
